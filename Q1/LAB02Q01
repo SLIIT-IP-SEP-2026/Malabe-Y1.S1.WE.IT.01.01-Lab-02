@@ -1,0 +1,22 @@
+public class IT26102743 LAB2Q1 {
+    public static void main(String[] args) {
+
+        // Given perimeter
+        double perimeter = 100;
+
+        // Width is 3/4 of the length
+        // width = (3.0 / 4.0) * length
+
+        // Perimeter = 2 * (length + width)
+        // 100 = 2 * (length + 3/4 length)
+        // 100 = 2 * (7/4 length)
+        // length = 100 / 3.5
+
+        double length = perimeter / 3.5;
+        double width = (3.0 / 4.0) * length;
+
+        // Display the results
+        System.out.println("Length = " + length);
+        System.out.println("Width = " + width);
+    }
+}

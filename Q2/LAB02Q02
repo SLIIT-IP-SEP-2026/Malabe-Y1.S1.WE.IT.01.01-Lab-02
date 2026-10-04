@@ -1,0 +1,19 @@
+public class IT26102743 LAB2Q2 {
+    public static void main(String[] args) {
+
+        // Length of one side of the square
+        double length = 10;
+
+        // Perimeter of the square
+        double perimeter = 4 * length;
+
+        // Value of PI
+        double pi = 3.14;
+
+        // Circumference of the circle is equal to the rope length
+        // Circumference = 2 * PI * radius
+        double radius = perimeter / (2 * pi);
+
+        // Display the radius
+        System.out.println("Radius of the circular fence = " + radius);
+    }
